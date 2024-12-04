@@ -1,0 +1,138 @@
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation: 5s bald infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes bald{ 
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    100%{
+        transform: translateX(400px) translateY(900px);
+    }
+}
+
+.circle2 {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color: pink;
+    animation: 4s upside infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes upside{
+    0% {
+        transform: translateX(10px) translateY(12px);
+    }
+    100% {
+        transform: translateX(700px) translateY(500px);
+    }
+} 
+.circle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation: 3s downside infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes downside {
+    0% {
+        transform: translateX(350px) translateY(0);
+    }
+    100% {
+transform: translateX(350px) translateY(100px);
+    }
+}
+
+.circle4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: plum;
+    animation: 4s bouncing infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes bouncing {
+    0% {
+        transform: translateX(50px) translateY(0);
+    }
+    100% {
+transform: translateX(30px) translateY(150px);
+    }
+}
+.circle5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: 0.5 uplit infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes uplit {
+    0% {
+        transform: translateX(700px) translateY(200px);
+    }
+    100% {
+transform: translateX(450px) translateY(600px);
+    }
+}
+
+.circle6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: purple;
+    animation: 5.1s jump infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes jump {
+    0% {
+        transform: translateX(350px) translateY(0);
+    }
+    100% {
+transform: translateX(350px) translateY(100px);
+    }
+}
+.circle7 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    animation: 2s litup infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes litup {
+    0% {
+        transform: translateX(420px) translateY(200px);
+    }
+    100% {
+        transform: translateX(800px) translateY(270px);
+    }
+}
+
+.circle8 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    animation: 3s upp infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes upp {
+    0%{
+        transform: translateX(650px) translateY(580px);
+    }
+    100% {
+        transform: translateX(400px) translateY(0);
+    }
+}

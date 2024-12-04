@@ -1,0 +1,90 @@
+
+.jumping-text{
+font-size: 7rem;
+display: inline-flex;
+margin-top: 80px;
+}
+
+.C{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.C:hover {
+    color: blue;
+    transform: translateY(50px);
+}
+
+.Y{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.Y:hover {
+    color: pink;
+    transform: translateY(50px);
+}
+.C{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.C:hover {
+    color: purple;
+    transform: translateY(-50px);
+}
+.L{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.L:hover {
+    color: red;
+    transform: translateY(50px);
+}
+.O{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.O:hover {
+    color: yellowgreen;
+    transform: translateY(-50px);
+}
+B{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.B:hover {
+    color: limegreen;
+    transform: translateY(-50px);
+}
+O{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.O:hover {
+    color: orange;
+    transform: translateY(50px);
+}
+L{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.L:hover {
+    color: orangered;
+    transform: translateY(-50px);
+}
+
+.D{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.D:hover {
+    color: olive;
+    transform: translateY(50px);
+}
